@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="260dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        app:srcCompat="@drawable/myphoto" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="
+        At present, I'm pursuing Computer Engineering at GEC Rajkot. As a student of C.E., I am familiar with many programming languages like Java, C/C++, SQL, and HTML and have a firm knowledge of most of them.
+
+In the future, I also want to explore the world of BlockChain. Also, I have already explored the field of Android Development and looking forward to learning iOS Development.
+
+And yes, I am currently learning Data Structures and Algorithms, DBMS, and OS to grasp technology.
+
+I love to code and explore new opportunities."
+            android:textSize="20sp" />
+
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="260dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        app:srcCompat="@drawable/myphoto" />
+
+</LinearLayout>
