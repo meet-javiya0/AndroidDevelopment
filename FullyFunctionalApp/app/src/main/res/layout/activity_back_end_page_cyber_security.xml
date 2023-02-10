@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BackEndPageCyberSecurity">
+
+    <TextView
+        android:id="@+id/PageTitleBackEndCyberSecurity"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_margin="7dp"
+        android:text="Back-end Technologies:" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="7dp"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:backgroundTint="@color/purple_200"
+            android:layout_marginTop="25dp"
+            android:layout_marginStart="10dp"
+            android:id="@+id/BackEndTechNameCyberSecurity1"
+            app:cardCornerRadius="250dp">
+
+            <TextView
+                android:id="@+id/Django"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:text="Django" >
+            </TextView>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:backgroundTint="@color/purple_200"
+            android:layout_marginTop="25dp"
+            android:layout_marginStart="10dp"
+            android:id="@+id/BackEndTechDescCyberSecurity1"
+            app:cardCornerRadius="20dp">
+
+            <TextView
+                android:id="@+id/DescOfDjango"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:text="A high-level Python web framework used for developing server-side applications in the security domain.">
+            </TextView>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="7dp"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:backgroundTint="@color/purple_200"
+            android:layout_marginTop="25dp"
+            android:layout_marginStart="10dp"
+            android:id="@+id/BackEndTechNameCyberSecurity2"
+            app:cardCornerRadius="250dp">
+
+            <TextView
+                android:id="@+id/Flask"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:text="Flask" >
+            </TextView>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:backgroundTint="@color/purple_200"
+            android:layout_marginTop="25dp"
+            android:layout_marginStart="10dp"
+            android:id="@+id/BackEndTechDescCyberSecurity2"
+            app:cardCornerRadius="20dp">
+
+            <TextView
+                android:id="@+id/DescOfFlask"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:text="A microweb framework in Python that can be used for developing simple and lightweight cyber security applications." >
+            </TextView>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="7dp"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:backgroundTint="@color/purple_200"
+            android:layout_marginTop="25dp"
+            android:layout_marginStart="10dp"
+            android:id="@+id/BackEndTechNameCyberSecurity3"
+            app:cardCornerRadius="250dp">
+
+            <TextView
+                android:id="@+id/RubyonRails"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:text="Ruby on Rails" >
+            </TextView>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:backgroundTint="@color/purple_200"
+            android:layout_marginTop="25dp"
+            android:layout_marginStart="10dp"
+            android:id="@+id/BackEndTechDescCyberSecurity3"
+            app:cardCornerRadius="20dp">
+
+            <TextView
+                android:id="@+id/DescOfRubyonRails"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:text="A server-side web application framework written in Ruby that is often used for cyber security development.">
+            </TextView>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</LinearLayout>

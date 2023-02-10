@@ -12,6 +12,78 @@
         android:theme="@style/Theme.FullyFunctionalApp"
         tools:targetApi="31">
         <activity
+            android:name=".DatabasePageCyberSecurity"
+            android:exported="false" />
+        <activity
+            android:name=".BackEndPageCyberSecurity"
+            android:exported="false" />
+        <activity
+            android:name=".FrontEndPageCyberSecurity"
+            android:exported="false" />
+        <activity
+            android:name=".CyberSecurityPage"
+            android:exported="false" />
+        <activity
+            android:name=".DatabasePageBlockchain"
+            android:exported="false" />
+        <activity
+            android:name=".BackEndPageBlockchain"
+            android:exported="false" />
+        <activity
+            android:name=".FrontEndPageBlockchain"
+            android:exported="false" />
+        <activity
+            android:name=".BlockchainPage"
+            android:exported="false" />
+        <activity
+            android:name=".DatabasePageAI_ML"
+            android:exported="false" />
+        <activity
+            android:name=".BackEndPageAI_ML"
+            android:exported="false" />
+        <activity
+            android:name=".FrontEndPageAI_ML"
+            android:exported="false" />
+        <activity
+            android:name=".AI_ML_Page"
+            android:exported="false" />
+        <activity
+            android:name=".DatabasePageiOS"
+            android:exported="false" />
+        <activity
+            android:name=".BackEndPageiOS"
+            android:exported="false" />
+        <activity
+            android:name=".FrontEndPageiOS"
+            android:exported="false" />
+        <activity
+            android:name=".iOSDevelopmentPage"
+            android:exported="false" />
+        <activity
+            android:name=".DatabasePageWeb"
+            android:exported="false" />
+        <activity
+            android:name=".BackEndPageWeb"
+            android:exported="false" />
+        <activity
+            android:name=".FrontEndPageWeb"
+            android:exported="false" />
+        <activity
+            android:name=".WebDevelopmentPage"
+            android:exported="false" />
+        <activity
+            android:name=".DatabasePage"
+            android:exported="false" />
+        <activity
+            android:name=".BackEndPage"
+            android:exported="false" />
+        <activity
+            android:name=".FrontEndPage"
+            android:exported="false" />
+        <activity
+            android:name=".AndroidDevelopmentPage"
+            android:exported="false" />
+        <activity
             android:name=".SecondPage"
             android:exported="false" />
         <activity

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DatabasePageBlockchain">
+
+    <TextView
+        android:id="@+id/PageTitleDatabaseBlockchain"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_margin="7dp"
+        android:text="Database Technologies:" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="7dp"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:backgroundTint="@color/purple_200"
+            android:layout_marginTop="25dp"
+            android:layout_marginStart="10dp"
+            android:id="@+id/DatabaseTechNameBlockchain1"
+            app:cardCornerRadius="250dp">
+
+            <TextView
+                android:id="@+id/InterPlanetaryFileSystem_IPFS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:text="InterPlanetary File System (IPFS)" >
+            </TextView>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:backgroundTint="@color/purple_200"
+            android:layout_marginTop="25dp"
+            android:layout_marginStart="10dp"
+            android:id="@+id/DatabaseTechDescBlockchain1"
+            app:cardCornerRadius="20dp">
+
+            <TextView
+                android:id="@+id/DescOfInterPlanetaryFileSystem_IPFS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:text="A decentralized file storage system that allows for efficient and secure storage of large amounts of data on the blockchain." >
+            </TextView>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="7dp"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:backgroundTint="@color/purple_200"
+            android:layout_marginTop="25dp"
+            android:layout_marginStart="10dp"
+            android:id="@+id/DatabaseTechNameBlockchain2"
+            app:cardCornerRadius="250dp">
+
+            <TextView
+                android:id="@+id/BigChainDB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:text="BigChainDB" >
+            </TextView>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:backgroundTint="@color/purple_200"
+            android:layout_marginTop="25dp"
+            android:layout_marginStart="10dp"
+            android:id="@+id/DatabaseTechDescBlockchain2"
+            app:cardCornerRadius="20dp">
+
+            <TextView
+                android:id="@+id/DescOfBigChainDB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:text="A scalable blockchain database that allows for high-throughput transactions and low latency.
+" >
+            </TextView>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="7dp"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:backgroundTint="@color/purple_200"
+            android:layout_marginTop="25dp"
+            android:layout_marginStart="10dp"
+            android:id="@+id/DatabaseTechNameBlockchain3"
+            app:cardCornerRadius="250dp">
+
+            <TextView
+                android:id="@+id/Fluree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:text="Fluree" >
+            </TextView>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:backgroundTint="@color/purple_200"
+            android:layout_marginTop="25dp"
+            android:layout_marginStart="10dp"
+            android:id="@+id/DatabaseTechDescBlockchain3"
+            app:cardCornerRadius="20dp">
+
+            <TextView
+                android:id="@+id/DescOfFluree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:text="A scalable blockchain database that allows for the creation of decentralized applications.">
+            </TextView>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</LinearLayout>

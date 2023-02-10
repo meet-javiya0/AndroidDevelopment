@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FrontEndPageWeb">
+
+    <TextView
+        android:id="@+id/PageTitleFrontEndWeb"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_margin="7dp"
+        android:text="Front-end Technologies:" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="7dp"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:backgroundTint="@color/purple_200"
+            android:layout_marginTop="25dp"
+            android:layout_marginStart="10dp"
+            android:id="@+id/FrontEndTechNameWeb1"
+            app:cardCornerRadius="250dp">
+
+            <TextView
+                android:id="@+id/HTML"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:text="HTML" >
+            </TextView>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:backgroundTint="@color/purple_200"
+            android:layout_marginTop="25dp"
+            android:layout_marginStart="10dp"
+            android:id="@+id/FrontEndTechDescWeb1"
+            app:cardCornerRadius="20dp">
+
+            <TextView
+                android:id="@+id/DescOfHTML"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:text="Hypertext Markup Language (HTML) is used to structure and create the content of a web page." >
+            </TextView>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="7dp"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:backgroundTint="@color/purple_200"
+            android:layout_marginTop="25dp"
+            android:layout_marginStart="10dp"
+            android:id="@+id/FrontEndTechNameWeb2"
+            app:cardCornerRadius="250dp">
+
+            <TextView
+                android:id="@+id/CSS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:text="CSS" >
+            </TextView>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:backgroundTint="@color/purple_200"
+            android:layout_marginTop="25dp"
+            android:layout_marginStart="10dp"
+            android:id="@+id/FrontEndTechDescWeb2"
+            app:cardCornerRadius="20dp">
+
+            <TextView
+                android:id="@+id/DescOfCSS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:text="Cascading Style Sheets (CSS) is used to style and layout web pages." >
+            </TextView>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="7dp"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:backgroundTint="@color/purple_200"
+            android:layout_marginTop="25dp"
+            android:layout_marginStart="10dp"
+            android:id="@+id/FrontEndTechNameWeb3"
+            app:cardCornerRadius="250dp">
+
+            <TextView
+                android:id="@+id/JavaScript"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:text="JavaScript" >
+            </TextView>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:backgroundTint="@color/purple_200"
+            android:layout_marginTop="25dp"
+            android:layout_marginStart="10dp"
+            android:id="@+id/FrontEndTechDescWeb3"
+            app:cardCornerRadius="20dp">
+
+            <TextView
+                android:id="@+id/DescOfJavaScript"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:text="JavaScript is a client-side programming language that is used to add interactivity to web pages.">
+            </TextView>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</LinearLayout>
