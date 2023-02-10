@@ -39,6 +39,7 @@
                 android:layout_gravity="center"
                 android:textStyle="bold"
                 android:textSize="20sp"
+                android:textAlignment="center"
                 android:text="InterPlanetary File System (IPFS)" >
             </TextView>
 

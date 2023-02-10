@@ -15,17 +15,17 @@ class AndroidDevelopmentPage : AppCompatActivity() {
         val cardDatabase = findViewById<CardView>(R.id.DatabaseTechnologies)
 
         cardFrontEnd.setOnClickListener {
-            val intent = Intent(applicationContext, FrontEndPage::class.java)
+            val intent = Intent(applicationContext, FrontEndPageAndroid::class.java)
             startActivity(intent)
         }
 
          cardBackEnd.setOnClickListener {
-            val intent = Intent(applicationContext, BackEndPage::class.java)
+            val intent = Intent(applicationContext, BackEndPageAndroid::class.java)
             startActivity(intent)
         }
 
         cardDatabase.setOnClickListener {
-            val intent = Intent(applicationContext, DatabasePage::class.java)
+            val intent = Intent(applicationContext, DatabasePageAndroid::class.java)
             startActivity(intent)
         }
     }

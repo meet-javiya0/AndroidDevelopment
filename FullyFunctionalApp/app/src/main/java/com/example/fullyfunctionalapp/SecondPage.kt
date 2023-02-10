@@ -5,6 +5,7 @@ import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import android.widget.Toast
 import androidx.cardview.widget.CardView
 
 class SecondPage : AppCompatActivity() {
@@ -60,6 +61,7 @@ class SecondPage : AppCompatActivity() {
         }
         if (intent.resolveActivity(packageManager) != null) {
             startActivity(intent)
+            Toast.makeText(applicationContext,"Dialer opened!", Toast.LENGTH_SHORT).show()
         }
     }
 }

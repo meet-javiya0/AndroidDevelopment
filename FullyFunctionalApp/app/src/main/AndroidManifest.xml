@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.CALL_PHONE">
+    </uses-permission>
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -72,13 +75,13 @@
             android:name=".WebDevelopmentPage"
             android:exported="false" />
         <activity
-            android:name=".DatabasePage"
+            android:name=".DatabasePageAndroid"
             android:exported="false" />
         <activity
-            android:name=".BackEndPage"
+            android:name=".BackEndPageAndroid"
             android:exported="false" />
         <activity
-            android:name=".FrontEndPage"
+            android:name=".FrontEndPageAndroid"
             android:exported="false" />
         <activity
             android:name=".AndroidDevelopmentPage"
