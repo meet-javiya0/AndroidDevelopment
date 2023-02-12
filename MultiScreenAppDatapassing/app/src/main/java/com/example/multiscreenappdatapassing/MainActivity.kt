@@ -4,7 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
-import kotlinx.android.synthetic.main.activity_main.*
+import android.widget.TextView
 
 class MainActivity : AppCompatActivity() {
     // Creating key
@@ -17,6 +17,10 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val btnOrder = findViewById<Button>(R.id.btnOrder)
+        val eT1 = findViewById<TextView>(R.id.eT1)
+        val eT2 = findViewById<TextView>(R.id.eT2)
+        val eT3 = findViewById<TextView>(R.id.eT3)
+        val eT4 = findViewById<TextView>(R.id.eT4)
 
         btnOrder.setOnClickListener {
             val ordersPlaced = eT1.text.toString() + " " + eT2.text.toString() + " " + eT3.text.toString() + " " + eT4.text.toString()
