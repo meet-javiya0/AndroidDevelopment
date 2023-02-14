@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Splash Screen</string>
+    <string name="android_logo">Android Logo</string>
+    <string name="hello_splash_screen">Welcome to Android</string>
+</resources>
