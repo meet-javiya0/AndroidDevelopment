@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Valentine\'s Day Assignment</string>
+    <string name="logo">logo</string>
+    <string name="logo_second">logo_second</string>
+    <string name="logo_third">logo_third</string>
+    <string name="history_of_valentines_day">History of Valentine\'s day</string>
+    <string name="message_for_you">Message For You</string>
+    <string name="background_image_of_couple">Background Image of couple</string>
+    <string name="history_of_valentine">Valentine\'s Day has a long and complex history that is rooted in both ancient Roman traditions and Christian beliefs.\n\n
+
+            The origins of Valentine\'s Day can be traced back to the ancient Roman festival of Lupercalia, which was celebrated in mid-February. The festival was dedicated to Lupercus, the Roman god of fertility and agriculture, and involved various rituals and ceremonies.\n\n
+
+            One of the key traditions of Lupercalia was the pairing of young men and women through a lottery system. These pairs would spend time together during the festival, and sometimes even became romantically involved.\n\n
+
+            Over time, the early Christian church began to disapprove of the pagan festival of Lupercalia and sought to replace it with a Christian celebration. In the 5th century, Pope Gelasius declared February 14th as St. Valentine\'s Day, in honor of several Christian martyrs named Valentine.\n\n
+
+            One of the most popular stories about St. Valentine involves a Roman priest who defied Emperor Claudius II\'s order to outlaw marriage for young men, believing that single men made better soldiers. Valentine secretly married couples and was eventually caught and imprisoned. While in prison, he is said to have healed the daughter of his jailer and written her a letter signed "Your Valentine." Valentine was later executed on February 14th, and the letter he wrote to his love is considered the first Valentine\'s Day card.\n\n
+
+            Valentine\'s Day continued to be celebrated as a religious holiday throughout the Middle Ages, but it wasn\'t until the 14th and 15th centuries that it became associated with romantic love. During this time, the concept of courtly love became popular, and Valentine\'s Day became an occasion for lovers to express their feelings through poetry, gifts, and other romantic gestures.\n\n
+
+            Today, Valentine\'s Day is celebrated around the world as a day to express love and affection for romantic partners, family members, and friends. It is a major commercial holiday, with millions of people buying cards, flowers, chocolates, and other gifts to mark the occasion.</string>
+    <string name="message_for_valentine">
+        My dear,\n\n
+        On this Valentine\'s Day, I want to express how much you mean to me. You light up my life with your love, laughter, and kindness. Your presence in my life makes every day brighter, and I feel so lucky to have you as my partner.\n\n
+        Thank you for being my rock, my support, and my best friend. I cherish the moments we spend together, and I look forward to creating many more happy memories with you in the future.\n\n
+        I love you more than words can express, and I hope this Valentine\'s Day is just the beginning of a lifetime of love and happiness together.\n\n
+        Yours always,\n\n
+        Meet Javiya </string>
+</resources>
