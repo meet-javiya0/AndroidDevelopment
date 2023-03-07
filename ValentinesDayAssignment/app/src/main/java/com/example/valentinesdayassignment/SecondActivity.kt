@@ -4,6 +4,8 @@ import android.annotation.SuppressLint
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Button
+import android.widget.Toast
 import androidx.cardview.widget.CardView
 
 class SecondActivity : AppCompatActivity() {
@@ -14,6 +16,7 @@ class SecondActivity : AppCompatActivity() {
 
         val historyCard = findViewById<CardView>(R.id.history_card)
         val messageCard = findViewById<CardView>(R.id.message_card)
+        val popUpMessage = findViewById<Button>(R.id.button)
 
         historyCard.setOnClickListener {
             val intent = Intent(this, History::class.java)
@@ -23,6 +26,10 @@ class SecondActivity : AppCompatActivity() {
         messageCard.setOnClickListener {
             val intent = Intent(this,Message::class.java)
             startActivity(intent)
+        }
+
+        popUpMessage.setOnClickListener {
+            Toast.makeText(applicationContext,"I love you ❤💕",Toast.LENGTH_SHORT).show()
         }
     }
 }

@@ -11,7 +11,7 @@
         android:layout_width="250dp"
         android:layout_height="250dp"
         android:layout_gravity="center"
-        android:layout_marginTop="75dp"
+        android:layout_marginTop="60dp"
         app:cardCornerRadius="30dp"
         android:id="@+id/history_card"
         app:cardBackgroundColor="@android:color/darker_gray">
@@ -50,7 +50,7 @@
         android:layout_width="250dp"
         android:layout_height="250dp"
         android:layout_gravity="center"
-        android:layout_marginTop="75dp"
+        android:layout_marginTop="50dp"
         app:cardCornerRadius="30dp"
         android:id="@+id/message_card"
         app:cardBackgroundColor="@android:color/darker_gray">
@@ -85,5 +85,13 @@
         </LinearLayout>
 
     </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:text="@string/tap_here" />
 
 </LinearLayout>
