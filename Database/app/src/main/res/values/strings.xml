@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Database</string>
+    <string name="name">Your Name</string>
+    <string name="email">Email Address</string>
+    <string name="password">Password</string>
+    <string name="user_name">User Name</string>
+    <string name="register">Register</string>
+</resources>
