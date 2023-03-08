@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "151197932311",
+    "project_id": "read-and-use-data-from-db",
+    "storage_bucket": "read-and-use-data-from-db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:151197932311:android:18af878b027a27a6fff552",
+        "android_client_info": {
+          "package_name": "com.example.readandusedatafromdatabase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "151197932311-fkb427n94u3753c2ae08204grc2bfc3b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFu7bF4Chr9aMkEvQBKLh-MkSvgnghMxQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "151197932311-fkb427n94u3753c2ae08204grc2bfc3b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
