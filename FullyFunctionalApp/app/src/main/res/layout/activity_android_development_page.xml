@@ -15,71 +15,116 @@
         android:textStyle="bold"
         android:textSize="25sp"
         android:layout_margin="15dp"
-        android:text="Android Development" />
+        android:text="@string/android_development" />
 
     <androidx.cardview.widget.CardView
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+        android:layout_width="250dp"
+        android:layout_height="170dp"
         android:layout_gravity="center"
-        app:cardCornerRadius="250dp"
-        android:layout_margin="20dp"
+        app:cardCornerRadius="20dp"
+        android:layout_margin="10dp"
         android:id="@+id/FrontEndTechnologies"
         android:backgroundTint="@color/teal_700">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="23dp"
+            android:layout_marginStart="50dp"
+            app:cardCornerRadius="10dp">
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/front_end_image_1"
+                android:contentDescription="@string/front_end_technology_image" />
+        </androidx.cardview.widget.CardView>
 
         <TextView
             android:id="@+id/frontEnd"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
             android:textSize="20sp"
             android:layout_gravity="center"
             android:textAlignment="center"
             android:textColor="@color/white"
-            android:text="Front-end Technologies:" />
+            android:text="@string/front_end_technologies" />
 
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+        android:layout_width="250dp"
+        android:layout_height="170dp"
         android:layout_gravity="center"
-        app:cardCornerRadius="250dp"
-        android:layout_margin="25dp"
+        app:cardCornerRadius="20dp"
+        android:layout_margin="20dp"
         android:id="@+id/BackEndTechnologies"
         android:backgroundTint="@color/teal_700">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="110dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="23dp"
+            android:layout_marginStart="68dp"
+            app:cardCornerRadius="15dp">
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="110dp"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/back_end_image"
+                android:contentDescription="@string/back_end_technology_image" />
+        </androidx.cardview.widget.CardView>
 
         <TextView
             android:id="@+id/backEnd"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
             android:textSize="20sp"
             android:layout_gravity="center"
             android:textAlignment="center"
             android:textColor="@color/white"
-            android:text="Back-end Technologies:" />
+            android:text="@string/back_end_technologies" />
 
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+        android:layout_width="250dp"
+        android:layout_height="170dp"
         android:layout_gravity="center"
-        app:cardCornerRadius="250dp"
-        android:layout_margin="25dp"
+        app:cardCornerRadius="20dp"
+        android:layout_margin="10dp"
         android:id="@+id/DatabaseTechnologies"
         android:backgroundTint="@color/teal_700">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="130dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="23dp"
+            android:layout_marginStart="60dp"
+            app:cardCornerRadius="10dp">
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="130dp"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/database_image"
+                android:contentDescription="@string/database_technology_image" />
+        </androidx.cardview.widget.CardView>
 
         <TextView
             android:id="@+id/Database"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
             android:textSize="20sp"
             android:layout_gravity="center"
             android:textAlignment="center"
             android:textColor="@color/white"
-            android:text="Database Technologies:" />
+            android:text="@string/database_technologies" />
 
     </androidx.cardview.widget.CardView>
 

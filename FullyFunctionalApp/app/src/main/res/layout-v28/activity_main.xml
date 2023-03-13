@@ -12,6 +12,7 @@
         android:layout_height="250dp"
         android:layout_gravity="center"
         app:cardCornerRadius="15dp"
+        android:outlineSpotShadowColor="@color/black"
         android:layout_marginTop="150dp">
 
         <ImageView

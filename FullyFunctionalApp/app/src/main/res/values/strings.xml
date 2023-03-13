@@ -1,3 +1,37 @@
 <resources>
     <string name="app_name">Fully Functional App</string>
+    <string name="welcome_message">Welcome to Meet\'s Knowledge Hub</string>
+    <string name="let_s_go">Let\'s Go</string>
+    <string name="android_development_icon">Android Development icon</string>
+    <string name="android_app_development">Android App Development</string>
+    <string name="web_development">Web Development</string>
+    <string name="ios_development">iOS Development</string>
+    <string name="ai_ml">AI/ML</string>
+    <string name="blockchain">Blockchain</string>
+    <string name="cyber_security">Cyber Security</string>
+    <string name="call_us">Call us</string>
+    <string name="ios_development_logo">iOS Development logo</string>
+    <string name="web_development_logo">Web Development logo</string>
+    <string name="ai_ml_logo">AI/ML logo</string>
+    <string name="blockchain_logo">Blockchain logo</string>
+    <string name="cyber_security_logo">Cyber security logo</string>
+    <string name="call_us_logo">Call us logo</string>
+    <string name="welcome_image">Welcome image</string>
+    <string name="android_development">Android Development</string>
+    <string name="front_end_technologies">Front-end Technologies:</string>
+    <string name="front_end_technology_image">Front end technology image</string>
+    <string name="back_end_technologies">Back-end Technologies:</string>
+    <string name="back_end_technology_image">Back end technology image</string>
+    <string name="database_technologies">Database Technologies:</string>
+    <string name="database_technology_image">Database technology image</string>
+    <string name="ai_ml_title">AI/ML(Artificial Intelligence/ Machine learning)</string>
+    <string name="java_kotlin">Java/Kotlin</string>
+    <string name="java_kotlin_desc">Java is the primary language used for developing Android apps. Kotlin is another popular language that has been officially supported by Google for Android app development.</string>
+    <string name="xml">XML</string>
+    <string name="xml_desc">Extensible Markup Language (XML) is used to design the user interface of an Android app.</string>
+    <string name="android_sdk">Android SDK</string>
+    <string name="android_sdk_desc">Android Software Development Kit (SDK) provides a set of tools and APIs for developing Android apps.</string>
+    <string name="java_logo">Java logo</string>
+    <string name="kotlin_logo">Kotlin logo</string>
+    <string name="xml_logo">XML logo</string>
 </resources>

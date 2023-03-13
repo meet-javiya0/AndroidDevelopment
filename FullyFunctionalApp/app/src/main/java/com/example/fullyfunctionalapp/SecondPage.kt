@@ -1,5 +1,6 @@
 package com.example.fullyfunctionalapp
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
@@ -52,12 +53,13 @@ class SecondPage : AppCompatActivity() {
         }
 
         btnCall.setOnClickListener {
-            dialPhoneNumber("0123456789")
+            dialPhoneNumber()
         }
     }
-    private fun dialPhoneNumber(phoneNumber:String) {
+    @SuppressLint("QueryPermissionsNeeded")
+    private fun dialPhoneNumber() {
         val intent = Intent(Intent.ACTION_DIAL).apply {
-            data = Uri.parse("tel:$phoneNumber")
+            data = Uri.parse("tel:0123456789")
         }
         if (intent.resolveActivity(packageManager) != null) {
             startActivity(intent)
