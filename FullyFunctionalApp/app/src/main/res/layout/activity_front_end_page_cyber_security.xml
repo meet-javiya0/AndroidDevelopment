@@ -15,7 +15,7 @@
         android:textStyle="bold"
         android:textSize="25sp"
         android:layout_margin="7dp"
-        android:text="Front-end Technologies:" />
+        android:text="@string/front_end_technologies" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -24,12 +24,12 @@
         android:orientation="horizontal">
 
         <androidx.cardview.widget.CardView
-            android:layout_width="150dp"
-            android:layout_height="150dp"
-            android:backgroundTint="@color/purple_200"
-            android:layout_marginTop="25dp"
-            android:layout_marginStart="10dp"
             android:id="@+id/FrontEndTechNameCyberSecurity1"
+            android:layout_width="175dp"
+            android:layout_height="175dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="13dp"
+            android:backgroundTint="@color/teal_200"
             app:cardCornerRadius="250dp">
 
             <TextView
@@ -37,31 +37,29 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:textStyle="bold"
-                android:textSize="20sp"
-                android:text="React" >
-            </TextView>
+                android:text="@string/react"
+                android:textSize="25sp"
+                android:textStyle="bold" />
 
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:layout_width="200dp"
-            android:layout_height="150dp"
-            android:backgroundTint="@color/purple_200"
-            android:layout_marginTop="25dp"
-            android:layout_marginStart="10dp"
             android:id="@+id/FrontEndTechDescCyberSecurity1"
+            android:layout_width="190dp"
+            android:layout_height="175dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="13dp"
+            android:backgroundTint="@color/teal_200"
             app:cardCornerRadius="20dp">
 
             <TextView
                 android:id="@+id/DescOfReact"
-                android:layout_width="wrap_content"
+                android:layout_width="182dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:textSize="15sp"
+                android:text="@string/react_desc"
                 android:textAlignment="center"
-                android:text="A JavaScript library for building user interfaces that is often used for developing cyber security applications." >
-            </TextView>
+                android:textSize="18sp" />
 
         </androidx.cardview.widget.CardView>
 
@@ -74,12 +72,12 @@
         android:orientation="horizontal">
 
         <androidx.cardview.widget.CardView
-            android:layout_width="150dp"
-            android:layout_height="150dp"
-            android:backgroundTint="@color/purple_200"
-            android:layout_marginTop="25dp"
-            android:layout_marginStart="10dp"
             android:id="@+id/FrontEndTechNameCyberSecurity2"
+            android:layout_width="175dp"
+            android:layout_height="175dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="13dp"
+            android:backgroundTint="@color/teal_200"
             app:cardCornerRadius="250dp">
 
             <TextView
@@ -87,31 +85,29 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:textStyle="bold"
-                android:textSize="20sp"
-                android:text="Angular" >
-            </TextView>
+                android:text="@string/angular"
+                android:textSize="25sp"
+                android:textStyle="bold" />
 
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:layout_width="200dp"
-            android:layout_height="150dp"
-            android:backgroundTint="@color/purple_200"
-            android:layout_marginTop="25dp"
-            android:layout_marginStart="10dp"
             android:id="@+id/FrontEndTechDescCyberSecurity2"
+            android:layout_width="190dp"
+            android:layout_height="175dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="13dp"
+            android:backgroundTint="@color/teal_200"
             app:cardCornerRadius="20dp">
 
             <TextView
                 android:id="@+id/DescOfAngular"
-                android:layout_width="wrap_content"
+                android:layout_width="182dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:textSize="15sp"
+                android:text="@string/angular_desc"
                 android:textAlignment="center"
-                android:text="A JavaScript framework for building web applications that is widely used for cyber security development." >
-            </TextView>
+                android:textSize="18sp" />
 
         </androidx.cardview.widget.CardView>
 
@@ -124,12 +120,12 @@
         android:orientation="horizontal">
 
         <androidx.cardview.widget.CardView
-            android:layout_width="150dp"
-            android:layout_height="150dp"
-            android:backgroundTint="@color/purple_200"
-            android:layout_marginTop="25dp"
-            android:layout_marginStart="10dp"
             android:id="@+id/FrontEndTechNameCyberSecurity3"
+            android:layout_width="175dp"
+            android:layout_height="175dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="13dp"
+            android:backgroundTint="@color/teal_200"
             app:cardCornerRadius="250dp">
 
             <TextView
@@ -137,31 +133,29 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:textStyle="bold"
-                android:textSize="20sp"
-                android:text="Vue.js" >
-            </TextView>
+                android:text="@string/vue_js"
+                android:textSize="25sp"
+                android:textStyle="bold" />
 
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:layout_width="200dp"
-            android:layout_height="150dp"
-            android:backgroundTint="@color/purple_200"
-            android:layout_marginTop="25dp"
-            android:layout_marginStart="10dp"
             android:id="@+id/FrontEndTechDescCyberSecurity3"
+            android:layout_width="190dp"
+            android:layout_height="175dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="13dp"
+            android:backgroundTint="@color/teal_200"
             app:cardCornerRadius="20dp">
 
             <TextView
                 android:id="@+id/DescOfVue.js"
-                android:layout_width="wrap_content"
+                android:layout_width="182dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:textSize="15sp"
+                android:text="@string/vue_js_desc"
                 android:textAlignment="center"
-                android:text="A progressive JavaScript framework for building user interfaces that is gaining popularity for cyber security development.">
-            </TextView>
+                android:textSize="18sp" />
 
         </androidx.cardview.widget.CardView>
 

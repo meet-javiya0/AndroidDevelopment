@@ -37,7 +37,7 @@
                 android:id="@+id/imageView7"
                 android:layout_width="150dp"
                 android:layout_height="100dp"
-                app:srcCompat="@drawable/front_end_image_1"
+                app:srcCompat="@drawable/front_end_image"
                 android:contentDescription="@string/front_end_technology_image" />
         </androidx.cardview.widget.CardView>
 
