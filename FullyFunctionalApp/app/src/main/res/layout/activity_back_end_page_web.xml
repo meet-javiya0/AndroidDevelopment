@@ -15,7 +15,7 @@
         android:textStyle="bold"
         android:textSize="25sp"
         android:layout_margin="7dp"
-        android:text="Back-end Technologies:" />
+        android:text="@string/back_end_technologies" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -24,12 +24,12 @@
         android:orientation="horizontal">
 
         <androidx.cardview.widget.CardView
-            android:layout_width="150dp"
-            android:layout_height="150dp"
-            android:backgroundTint="@color/purple_200"
-            android:layout_marginTop="25dp"
-            android:layout_marginStart="10dp"
             android:id="@+id/BackEndTechNameWeb1"
+            android:layout_width="175dp"
+            android:layout_height="175dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="13dp"
+            android:backgroundTint="@color/teal_200"
             app:cardCornerRadius="250dp">
 
             <TextView
@@ -37,31 +37,29 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:textStyle="bold"
-                android:textSize="20sp"
-                android:text="Node.js" >
-            </TextView>
+                android:text="@string/node_js"
+                android:textSize="25sp"
+                android:textStyle="bold" />
 
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:layout_width="200dp"
-            android:layout_height="150dp"
-            android:backgroundTint="@color/purple_200"
-            android:layout_marginTop="25dp"
-            android:layout_marginStart="10dp"
             android:id="@+id/BackEndTechDescWeb1"
+            android:layout_width="190dp"
+            android:layout_height="175dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="13dp"
+            android:backgroundTint="@color/teal_200"
             app:cardCornerRadius="20dp">
 
             <TextView
                 android:id="@+id/DescOfNode.jsWeb"
-                android:layout_width="wrap_content"
+                android:layout_width="182dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:textSize="15sp"
+                android:text="@string/node_js_desc_web"
                 android:textAlignment="center"
-                android:text="Node.js is a JavaScript-based back-end technology that can be used to build fast and scalable backends for web applications.">
-            </TextView>
+                android:textSize="18sp" />
 
         </androidx.cardview.widget.CardView>
 
@@ -74,12 +72,12 @@
         android:orientation="horizontal">
 
         <androidx.cardview.widget.CardView
-            android:layout_width="150dp"
-            android:layout_height="150dp"
-            android:backgroundTint="@color/purple_200"
-            android:layout_marginTop="25dp"
-            android:layout_marginStart="10dp"
             android:id="@+id/BackEndTechNameWeb2"
+            android:layout_width="175dp"
+            android:layout_height="175dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="13dp"
+            android:backgroundTint="@color/teal_200"
             app:cardCornerRadius="250dp">
 
             <TextView
@@ -87,31 +85,29 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:textStyle="bold"
-                android:textSize="20sp"
-                android:text="Django" >
-            </TextView>
+                android:text="@string/django"
+                android:textSize="25sp"
+                android:textStyle="bold" />
 
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:layout_width="200dp"
-            android:layout_height="150dp"
-            android:backgroundTint="@color/purple_200"
-            android:layout_marginTop="25dp"
-            android:layout_marginStart="10dp"
             android:id="@+id/BackEndTechDescWeb2"
+            android:layout_width="190dp"
+            android:layout_height="175dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="13dp"
+            android:backgroundTint="@color/teal_200"
             app:cardCornerRadius="20dp">
 
             <TextView
                 android:id="@+id/DescOfDjangoWeb"
-                android:layout_width="wrap_content"
+                android:layout_width="182dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:textSize="15sp"
+                android:text="@string/django_desc_web"
                 android:textAlignment="center"
-                android:text="Django is a high-level Python web framework that can be used to build backends for web applications." >
-            </TextView>
+                android:textSize="18sp" />
 
         </androidx.cardview.widget.CardView>
 
@@ -124,12 +120,12 @@
         android:orientation="horizontal">
 
         <androidx.cardview.widget.CardView
-            android:layout_width="150dp"
-            android:layout_height="150dp"
-            android:backgroundTint="@color/purple_200"
-            android:layout_marginTop="25dp"
-            android:layout_marginStart="10dp"
             android:id="@+id/BackEndTechNameWeb3"
+            android:layout_width="175dp"
+            android:layout_height="175dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="13dp"
+            android:backgroundTint="@color/teal_200"
             app:cardCornerRadius="250dp">
 
             <TextView
@@ -137,31 +133,29 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:textStyle="bold"
-                android:textSize="20sp"
-                android:text="Ruby on Rails" >
-            </TextView>
+                android:text="@string/ruby_on_rails"
+                android:textSize="25sp"
+                android:textStyle="bold" />
 
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:layout_width="200dp"
-            android:layout_height="150dp"
-            android:backgroundTint="@color/purple_200"
-            android:layout_marginTop="25dp"
-            android:layout_marginStart="10dp"
             android:id="@+id/BackEndTechDescWeb3"
+            android:layout_width="190dp"
+            android:layout_height="175dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="13dp"
+            android:backgroundTint="@color/teal_200"
             app:cardCornerRadius="20dp">
 
             <TextView
                 android:id="@+id/DescOfRubyOnRails"
-                android:layout_width="wrap_content"
+                android:layout_width="182dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:textSize="15sp"
+                android:text="@string/ruby_on_rails_desc_web"
                 android:textAlignment="center"
-                android:text="Ruby on Rails is a popular back-end framework for web development that is built using the Ruby programming language.">
-            </TextView>
+                android:textSize="18sp" />
 
         </androidx.cardview.widget.CardView>
 
