@@ -15,7 +15,7 @@
         android:textStyle="bold"
         android:textSize="25sp"
         android:layout_margin="7dp"
-        android:text="Database Technologies:" />
+        android:text="@string/database_technologies" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -24,12 +24,12 @@
         android:orientation="horizontal">
 
         <androidx.cardview.widget.CardView
-            android:layout_width="150dp"
-            android:layout_height="150dp"
-            android:backgroundTint="@color/purple_200"
-            android:layout_marginTop="25dp"
-            android:layout_marginStart="10dp"
             android:id="@+id/DatabaseTechNameIOS1"
+            android:layout_width="175dp"
+            android:layout_height="175dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="13dp"
+            android:backgroundTint="@color/teal_200"
             app:cardCornerRadius="250dp">
 
             <TextView
@@ -37,31 +37,29 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:textStyle="bold"
-                android:textSize="20sp"
-                android:text="SQLite" >
-            </TextView>
+                android:text="@string/sqlite"
+                android:textSize="25sp"
+                android:textStyle="bold" />
 
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:layout_width="200dp"
-            android:layout_height="150dp"
-            android:backgroundTint="@color/purple_200"
-            android:layout_marginTop="25dp"
-            android:layout_marginStart="10dp"
             android:id="@+id/DatabaseTechDescIOS1"
+            android:layout_width="190dp"
+            android:layout_height="175dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="13dp"
+            android:backgroundTint="@color/teal_200"
             app:cardCornerRadius="20dp">
 
             <TextView
                 android:id="@+id/DescOfSQLiteIOS"
-                android:layout_width="wrap_content"
+                android:layout_width="182dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:textSize="15sp"
+                android:text="@string/sqlite_desc_ios"
                 android:textAlignment="center"
-                android:text="A file-based relational database management system that is integrated into iOS by default." >
-            </TextView>
+                android:textSize="18sp" />
 
         </androidx.cardview.widget.CardView>
 
@@ -74,12 +72,12 @@
         android:orientation="horizontal">
 
         <androidx.cardview.widget.CardView
-            android:layout_width="150dp"
-            android:layout_height="150dp"
-            android:backgroundTint="@color/purple_200"
-            android:layout_marginTop="25dp"
-            android:layout_marginStart="10dp"
             android:id="@+id/DatabaseTechNameIOS2"
+            android:layout_width="175dp"
+            android:layout_height="175dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="13dp"
+            android:backgroundTint="@color/teal_200"
             app:cardCornerRadius="250dp">
 
             <TextView
@@ -87,31 +85,29 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:textStyle="bold"
-                android:textSize="20sp"
-                android:text="Core Data" >
-            </TextView>
+                android:text="@string/core_data"
+                android:textSize="25sp"
+                android:textStyle="bold" />
 
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:layout_width="200dp"
-            android:layout_height="150dp"
-            android:backgroundTint="@color/purple_200"
-            android:layout_marginTop="25dp"
-            android:layout_marginStart="10dp"
             android:id="@+id/DatabaseTechDescIOS2"
+            android:layout_width="190dp"
+            android:layout_height="175dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="13dp"
+            android:backgroundTint="@color/teal_200"
             app:cardCornerRadius="20dp">
 
             <TextView
                 android:id="@+id/DescOfCoreData"
-                android:layout_width="wrap_content"
+                android:layout_width="182dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:textSize="15sp"
+                android:text="@string/core_data_desc"
                 android:textAlignment="center"
-                android:text="An object graph management and persistency framework used by iOS apps to manage data." >
-            </TextView>
+                android:textSize="18sp" />
 
         </androidx.cardview.widget.CardView>
 
@@ -124,12 +120,12 @@
         android:orientation="horizontal">
 
         <androidx.cardview.widget.CardView
-            android:layout_width="150dp"
-            android:layout_height="150dp"
-            android:backgroundTint="@color/purple_200"
-            android:layout_marginTop="25dp"
-            android:layout_marginStart="10dp"
             android:id="@+id/DatabaseTechNameIOS3"
+            android:layout_width="175dp"
+            android:layout_height="175dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="13dp"
+            android:backgroundTint="@color/teal_200"
             app:cardCornerRadius="250dp">
 
             <TextView
@@ -137,31 +133,29 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:textStyle="bold"
-                android:textSize="20sp"
-                android:text="Firebase" >
-            </TextView>
+                android:text="@string/firebase"
+                android:textSize="25sp"
+                android:textStyle="bold" />
 
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:layout_width="200dp"
-            android:layout_height="150dp"
-            android:backgroundTint="@color/purple_200"
-            android:layout_marginTop="25dp"
-            android:layout_marginStart="10dp"
             android:id="@+id/DatabaseTechDescIOS3"
+            android:layout_width="190dp"
+            android:layout_height="175dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="13dp"
+            android:backgroundTint="@color/teal_200"
             app:cardCornerRadius="20dp">
 
             <TextView
                 android:id="@+id/DescOfFirebase"
-                android:layout_width="wrap_content"
+                android:layout_width="182dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:textSize="15sp"
+                android:text="@string/firebase_desc_ios"
                 android:textAlignment="center"
-                android:text="A real-time NoSQL cloud database that provides APIs for storing and synchronizing data across multiple clients.">
-            </TextView>
+                android:textSize="18sp" />
 
         </androidx.cardview.widget.CardView>
 

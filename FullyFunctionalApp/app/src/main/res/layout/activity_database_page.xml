@@ -15,7 +15,7 @@
         android:textStyle="bold"
         android:textSize="25sp"
         android:layout_margin="7dp"
-        android:text="Database Technologies:" />
+        android:text="@string/database_technologies" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -24,12 +24,12 @@
         android:orientation="horizontal">
 
         <androidx.cardview.widget.CardView
-            android:layout_width="150dp"
-            android:layout_height="150dp"
-            android:backgroundTint="@color/purple_200"
-            android:layout_marginTop="25dp"
-            android:layout_marginStart="10dp"
             android:id="@+id/DatabaseTechName1"
+            android:layout_width="175dp"
+            android:layout_height="175dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="13dp"
+            android:backgroundTint="@color/teal_200"
             app:cardCornerRadius="250dp">
 
             <TextView
@@ -37,31 +37,29 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:textStyle="bold"
-                android:textSize="20sp"
-                android:text="SQLite" >
-            </TextView>
+                android:text="@string/sqlite"
+                android:textSize="25sp"
+                android:textStyle="bold" />
 
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:layout_width="200dp"
-            android:layout_height="150dp"
-            android:backgroundTint="@color/purple_200"
-            android:layout_marginTop="25dp"
-            android:layout_marginStart="10dp"
             android:id="@+id/DatabaseTechDesc1"
+            android:layout_width="190dp"
+            android:layout_height="175dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="13dp"
+            android:backgroundTint="@color/teal_200"
             app:cardCornerRadius="20dp">
 
             <TextView
                 android:id="@+id/DescOfSQLite"
-                android:layout_width="wrap_content"
+                android:layout_width="182dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:textSize="15sp"
+                android:text="@string/sqlite_desc"
                 android:textAlignment="center"
-                android:text="SQLite is a lightweight and fast relational database that is built into Android and can be used to store app data." >
-            </TextView>
+                android:textSize="18sp" />
 
         </androidx.cardview.widget.CardView>
 
@@ -74,12 +72,12 @@
         android:orientation="horizontal">
 
         <androidx.cardview.widget.CardView
-            android:layout_width="150dp"
-            android:layout_height="150dp"
-            android:backgroundTint="@color/purple_200"
-            android:layout_marginTop="25dp"
-            android:layout_marginStart="10dp"
             android:id="@+id/DatabaseTechName2"
+            android:layout_width="175dp"
+            android:layout_height="175dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="13dp"
+            android:backgroundTint="@color/teal_200"
             app:cardCornerRadius="250dp">
 
             <TextView
@@ -87,31 +85,29 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:textStyle="bold"
-                android:textSize="20sp"
-                android:text="Realm" >
-            </TextView>
+                android:text="@string/realm"
+                android:textSize="25sp"
+                android:textStyle="bold" />
 
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:layout_width="200dp"
-            android:layout_height="150dp"
-            android:backgroundTint="@color/purple_200"
-            android:layout_marginTop="25dp"
-            android:layout_marginStart="10dp"
             android:id="@+id/DatabaseTechDesc2"
+            android:layout_width="190dp"
+            android:layout_height="175dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="13dp"
+            android:backgroundTint="@color/teal_200"
             app:cardCornerRadius="20dp">
 
             <TextView
                 android:id="@+id/DescOfRealm"
-                android:layout_width="wrap_content"
+                android:layout_width="182dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:textSize="15sp"
+                android:text="@string/realm_desc"
                 android:textAlignment="center"
-                android:text="Realm is an object-oriented database that is specifically designed for mobile app development." >
-            </TextView>
+                android:textSize="18sp" />
 
         </androidx.cardview.widget.CardView>
 
@@ -124,12 +120,12 @@
         android:orientation="horizontal">
 
         <androidx.cardview.widget.CardView
-            android:layout_width="150dp"
-            android:layout_height="150dp"
-            android:backgroundTint="@color/purple_200"
-            android:layout_marginTop="25dp"
-            android:layout_marginStart="10dp"
             android:id="@+id/DatabaseTechName3"
+            android:layout_width="175dp"
+            android:layout_height="175dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="13dp"
+            android:backgroundTint="@color/teal_200"
             app:cardCornerRadius="250dp">
 
             <TextView
@@ -137,31 +133,29 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:textStyle="bold"
-                android:textSize="20sp"
-                android:text="MySQL" >
-            </TextView>
+                android:text="@string/mysql"
+                android:textSize="25sp"
+                android:textStyle="bold" />
 
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:layout_width="200dp"
-            android:layout_height="150dp"
-            android:backgroundTint="@color/purple_200"
-            android:layout_marginTop="25dp"
-            android:layout_marginStart="10dp"
             android:id="@+id/DatabaseTechDesc3"
+            android:layout_width="190dp"
+            android:layout_height="175dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="13dp"
+            android:backgroundTint="@color/teal_200"
             app:cardCornerRadius="20dp">
 
             <TextView
                 android:id="@+id/DescOfMySQL"
-                android:layout_width="wrap_content"
+                android:layout_width="182dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:textSize="15sp"
+                android:text="@string/mysql_desc"
                 android:textAlignment="center"
-                android:text="MySQL is a popular open-source relational database management system that can be used to store data for Android apps.">
-            </TextView>
+                android:textSize="18sp" />
 
         </androidx.cardview.widget.CardView>
 

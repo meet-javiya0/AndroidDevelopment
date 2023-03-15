@@ -15,7 +15,7 @@
         android:textStyle="bold"
         android:textSize="25sp"
         android:layout_margin="7dp"
-        android:text="Database Technologies:" />
+        android:text="@string/database_technologies" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -24,12 +24,12 @@
         android:orientation="horizontal">
 
         <androidx.cardview.widget.CardView
-            android:layout_width="150dp"
-            android:layout_height="150dp"
-            android:backgroundTint="@color/purple_200"
-            android:layout_marginTop="25dp"
-            android:layout_marginStart="10dp"
             android:id="@+id/DatabaseTechNameWeb1"
+            android:layout_width="175dp"
+            android:layout_height="175dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="13dp"
+            android:backgroundTint="@color/teal_200"
             app:cardCornerRadius="250dp">
 
             <TextView
@@ -37,31 +37,29 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:textStyle="bold"
-                android:textSize="20sp"
-                android:text="MySQL" >
-            </TextView>
+                android:text="@string/mysql"
+                android:textSize="25sp"
+                android:textStyle="bold" />
 
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:layout_width="200dp"
-            android:layout_height="150dp"
-            android:backgroundTint="@color/purple_200"
-            android:layout_marginTop="25dp"
-            android:layout_marginStart="10dp"
             android:id="@+id/DatabaseTechDescWeb1"
+            android:layout_width="190dp"
+            android:layout_height="175dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="13dp"
+            android:backgroundTint="@color/teal_200"
             app:cardCornerRadius="20dp">
 
             <TextView
                 android:id="@+id/DescOfMySQLWeb"
-                android:layout_width="wrap_content"
+                android:layout_width="182dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:textSize="15sp"
+                android:text="@string/mysql_desc_web"
                 android:textAlignment="center"
-                android:text="MySQL is a popular open-source relational database management system that is widely used for web development." >
-            </TextView>
+                android:textSize="18sp" />
 
         </androidx.cardview.widget.CardView>
 
@@ -74,12 +72,12 @@
         android:orientation="horizontal">
 
         <androidx.cardview.widget.CardView
-            android:layout_width="150dp"
-            android:layout_height="150dp"
-            android:backgroundTint="@color/purple_200"
-            android:layout_marginTop="25dp"
-            android:layout_marginStart="10dp"
             android:id="@+id/DatabaseTechNameWeb2"
+            android:layout_width="175dp"
+            android:layout_height="175dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="13dp"
+            android:backgroundTint="@color/teal_200"
             app:cardCornerRadius="250dp">
 
             <TextView
@@ -87,31 +85,29 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:textStyle="bold"
-                android:textSize="20sp"
-                android:text="MongoDB" >
-            </TextView>
+                android:text="@string/mongodb"
+                android:textSize="25sp"
+                android:textStyle="bold" />
 
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:layout_width="200dp"
-            android:layout_height="150dp"
-            android:backgroundTint="@color/purple_200"
-            android:layout_marginTop="25dp"
-            android:layout_marginStart="10dp"
             android:id="@+id/DatabaseTechDescWeb2"
+            android:layout_width="190dp"
+            android:layout_height="175dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="13dp"
+            android:backgroundTint="@color/teal_200"
             app:cardCornerRadius="20dp">
 
             <TextView
                 android:id="@+id/DescOfMongoDB"
-                android:layout_width="wrap_content"
+                android:layout_width="182dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:textSize="15sp"
+                android:text="@string/mongo_db_desc"
                 android:textAlignment="center"
-                android:text="MongoDB is a document-oriented NoSQL database that can be used to store unstructured data for web applications." >
-            </TextView>
+                android:textSize="18sp" />
 
         </androidx.cardview.widget.CardView>
 
@@ -124,12 +120,12 @@
         android:orientation="horizontal">
 
         <androidx.cardview.widget.CardView
-            android:layout_width="150dp"
-            android:layout_height="150dp"
-            android:backgroundTint="@color/purple_200"
-            android:layout_marginTop="25dp"
-            android:layout_marginStart="10dp"
             android:id="@+id/DatabaseTechNameWeb3"
+            android:layout_width="175dp"
+            android:layout_height="175dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="13dp"
+            android:backgroundTint="@color/teal_200"
             app:cardCornerRadius="250dp">
 
             <TextView
@@ -137,31 +133,29 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:textStyle="bold"
-                android:textSize="20sp"
-                android:text="PostgreSQL" >
-            </TextView>
+                android:text="@string/postgresql"
+                android:textSize="25sp"
+                android:textStyle="bold" />
 
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:layout_width="200dp"
-            android:layout_height="150dp"
-            android:backgroundTint="@color/purple_200"
-            android:layout_marginTop="25dp"
-            android:layout_marginStart="10dp"
             android:id="@+id/DatabaseTechDescWeb3"
+            android:layout_width="190dp"
+            android:layout_height="175dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="13dp"
+            android:backgroundTint="@color/teal_200"
             app:cardCornerRadius="20dp">
 
             <TextView
                 android:id="@+id/DescOfPostgreSQL"
-                android:layout_width="wrap_content"
+                android:layout_width="182dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:textSize="15sp"
+                android:text="@string/postgresql_desc"
                 android:textAlignment="center"
-                android:text="PostgreSQL is an open-source object-relational database management system that can be used to store structured data for web applications.">
-            </TextView>
+                android:textSize="18sp" />
 
         </androidx.cardview.widget.CardView>
 
