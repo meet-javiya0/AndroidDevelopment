@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
         val eT4 = findViewById<TextView>(R.id.eT4)
 
         btnOrder.setOnClickListener {
-            val ordersPlaced = eT1.text.toString() + " " + eT2.text.toString() + " " + eT3.text.toString() + " " + eT4.text.toString()
+            val ordersPlaced = eT1.text.toString() + ", " + eT2.text.toString() + ", " + eT3.text.toString() + ", " + eT4.text.toString()
             intent = Intent(this, Order::class.java)
             intent.putExtra(KEY, ordersPlaced)
             startActivity(intent)

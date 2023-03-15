@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Multi Screen App (Data passing)</string>
+    <string name="textview">TextView</string>
+    <string name="welcome_to_meet_s_cafe">Welcome to Meet\'s Cafe</string>
+    <string name="enter_order_1">Enter order 1</string>
+    <string name="enter_order_2">Enter order 2</string>
+    <string name="enter_order_3">Enter order 3</string>
+    <string name="enter_order_4">Enter order 4</string>
+    <string name="order_now">Order now</string>
 </resources>

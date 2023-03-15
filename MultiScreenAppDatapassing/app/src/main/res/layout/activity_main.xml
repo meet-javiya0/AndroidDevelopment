@@ -14,51 +14,61 @@
         android:layout_gravity="center"
         android:gravity="center"
         android:textStyle="bold"
-        android:textSize="20sp"
-        android:layout_margin="20dp"
-        android:text="Welcome to Chat's Cafe" />
+        android:textSize="30sp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="40dp"
+        android:text="@string/welcome_to_meet_s_cafe" />
 
     <EditText
         android:id="@+id/eT1"
-        android:layout_width="match_parent"
+        android:layout_width="290dp"
         android:layout_height="50dp"
         android:ems="10"
+        android:layout_gravity="center"
         android:inputType="textPersonName"
         android:layout_margin="15dp"
-        android:hint="Enter order 1"/>
+        android:hint="@string/enter_order_1"
+        android:autofillHints="Enter order 1" />
 
     <EditText
         android:id="@+id/eT2"
-        android:layout_width="match_parent"
+        android:layout_width="290dp"
         android:layout_height="50dp"
         android:ems="10"
+        android:layout_gravity="center"
         android:inputType="textPersonName"
         android:layout_margin="15dp"
-        android:hint="Enter order 2" />
+        android:hint="@string/enter_order_2"
+        android:autofillHints="Enter order 2" />
 
     <EditText
         android:id="@+id/eT3"
-        android:layout_width="match_parent"
+        android:layout_width="290dp"
         android:layout_height="50dp"
         android:ems="10"
+        android:layout_gravity="center"
         android:inputType="textPersonName"
         android:layout_margin="15dp"
-        android:hint="Enter order 3"/>
+        android:hint="@string/enter_order_3"
+        android:autofillHints="Enter order 3" />
 
     <EditText
         android:id="@+id/eT4"
-        android:layout_width="match_parent"
+        android:layout_width="290dp"
         android:layout_height="50dp"
         android:ems="10"
+        android:layout_gravity="center"
         android:inputType="textPersonName"
         android:layout_margin="15dp"
-        android:hint="Enter order 4"/>
+        android:hint="@string/enter_order_4"
+        android:autofillHints="Enter order 4" />
 
     <Button
         android:id="@+id/btnOrder"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:layout_margin="20dp"
-        android:text="Order now" />
+        android:text="@string/order_now" />
 
 </LinearLayout>
