@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">View Binding and Check Box</string>
+    <string name="enter_your_name">Enter your Name</string>
+    <string name="enter_your_e_mail">Enter your E-mail</string>
+    <string name="top_background_image">Top background image</string>
+    <string name="bottom_background_image">Bottom background image</string>
+    <string name="accept_all_t_amp_c"><![CDATA[Accept all T&C]]></string>
+    <string name="sign_up">Sign up</string>
+</resources>
