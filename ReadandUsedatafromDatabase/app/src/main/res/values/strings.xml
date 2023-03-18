@@ -10,5 +10,6 @@
     <string name="info">This is your data from our Database!</string>
     <string name="emailId">Email</string>
     <string name="username">Username</string>
-    <string name="login_message">If already registered then click here!</string>
+    <string name="login_message">If you\'re already registered then please click on login button</string>
+    <string name="enter_your_details_below">Enter your details below!</string>
 </resources>

@@ -19,10 +19,10 @@ class MainActivity : AppCompatActivity() {
             builder1.setTitle("Confirmation!")
             builder1.setMessage("Are you sure you want to exit?")
             builder1.setIcon(R.drawable.baseline_exit_to_app_24)
-            builder1.setPositiveButton("Yes",DialogInterface.OnClickListener { dialogInterface, i ->
+            builder1.setPositiveButton("Yes", DialogInterface.OnClickListener { _, _ ->
                 finish()
             })
-            builder1.setNegativeButton("No",DialogInterface.OnClickListener { dialogInterface, i ->
+            builder1.setNegativeButton("No", DialogInterface.OnClickListener { _, _ ->
 
             })
             builder1.show()
@@ -32,13 +32,13 @@ class MainActivity : AppCompatActivity() {
             val options = arrayOf("Gulab Jamun", "Rasmalai", "Kaju katli")
             val builder2 = AlertDialog.Builder(this)
             builder2.setTitle("Which is your favourite item from below list?")
-            builder2.setSingleChoiceItems(options,0,DialogInterface.OnClickListener { dialog, which ->
-                Toast.makeText(this,"You clicked on ${options[which]}", Toast.LENGTH_SHORT).show()
+            builder2.setSingleChoiceItems(options, 0, DialogInterface.OnClickListener { _, which ->
+                Toast.makeText(this, "You clicked on ${options[which]}", Toast.LENGTH_SHORT).show()
             })
-            builder2.setPositiveButton("Submit",DialogInterface.OnClickListener { dialogInterface, i ->
-                Toast.makeText(this,"Reply submitted successfully", Toast.LENGTH_SHORT).show()
+            builder2.setPositiveButton("Submit", DialogInterface.OnClickListener { _, _ ->
+                Toast.makeText(this, "Reply submitted successfully", Toast.LENGTH_SHORT).show()
             })
-            builder2.setNegativeButton("Decline",DialogInterface.OnClickListener { dialogInterface, i ->
+            builder2.setNegativeButton("Decline", DialogInterface.OnClickListener { _, _ ->
 
             })
             builder2.show()
@@ -48,13 +48,17 @@ class MainActivity : AppCompatActivity() {
             val options = arrayOf("Gulab jamun", "Rasmalai", "Kaju katli")
             val builder3 = AlertDialog.Builder(this)
             builder3.setTitle("Select all your favourite items")
-            builder3.setMultiChoiceItems(options, null, DialogInterface.OnMultiChoiceClickListener { dialog, which, isChecked ->
-                Toast.makeText(this,"You clicked on ${options[which]}", Toast.LENGTH_SHORT).show()
+            builder3.setMultiChoiceItems(
+                options,
+                null,
+                DialogInterface.OnMultiChoiceClickListener { _, which, _ ->
+                    Toast.makeText(this, "You clicked on ${options[which]}", Toast.LENGTH_SHORT)
+                        .show()
+                })
+            builder3.setPositiveButton("Submit", DialogInterface.OnClickListener { _, _ ->
+                Toast.makeText(this, "Reply submitted successfully", Toast.LENGTH_SHORT).show()
             })
-            builder3.setPositiveButton("Submit",DialogInterface.OnClickListener { dialogInterface, i ->
-                Toast.makeText(this,"Reply submitted successfully", Toast.LENGTH_SHORT).show()
-            })
-            builder3.setNegativeButton("Decline",DialogInterface.OnClickListener { dialogInterface, i ->
+            builder3.setNegativeButton("Decline", DialogInterface.OnClickListener { _, _ ->
 
             })
             builder3.show()

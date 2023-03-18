@@ -9,7 +9,7 @@ import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
 
 class MainActivity : AppCompatActivity() {
-    private lateinit var database : DatabaseReference
+    private lateinit var database: DatabaseReference
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -26,16 +26,16 @@ class MainActivity : AppCompatActivity() {
             val password = etPassword.text.toString()
             val username = etUserName.text.toString()
 
-            val user = Users(name,email,password,username)
+            val user = Users(name, email, password, username)
             database = FirebaseDatabase.getInstance().getReference("Users")
             database.child(username).setValue(user).addOnSuccessListener {
-                Toast.makeText(this,"User Registered Successfully",Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "User Registered Successfully", Toast.LENGTH_SHORT).show()
                 etName.setText("")
                 etEmail.setText("")
                 etPassword.setText("")
                 etUserName.setText("")
-            }.addOnFailureListener{
-                Toast.makeText(this,"Failed to register",Toast.LENGTH_SHORT).show()
+            }.addOnFailureListener {
+                Toast.makeText(this, "Failed to register", Toast.LENGTH_SHORT).show()
             }
         }
     }

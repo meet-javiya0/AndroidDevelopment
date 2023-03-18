@@ -21,7 +21,7 @@ class WelcomeActivity : AppCompatActivity() {
         val usernameText = findViewById<TextView>(R.id.tVUsername)
 
         welcomeText.text = "Welcome $name"
-        mailText.text = "Email : $email"
-        usernameText.text = "Username : $username"
+        mailText.text = "Email: $email"
+        usernameText.text = "Username: $username"
     }
 }

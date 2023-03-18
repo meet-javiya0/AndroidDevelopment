@@ -14,18 +14,17 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.button.setOnClickListener {
-            if(binding.checkBox.isChecked){
+        binding.btnRegister.setOnClickListener {
+            if (binding.checkBox.isChecked) {
                 binding.etName.setText("")
                 binding.etEmail.setText("")
-                Toast.makeText(this,"Signed up successfully!",Toast.LENGTH_SHORT).show()
-            }
-            else{
-                binding.checkBox.buttonTintList = ColorStateList.valueOf(Color.RED)
-                Toast.makeText(this,"Please accept T&C!",Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Signed up successfully!", Toast.LENGTH_SHORT).show()
+            } else {
+                binding.checkBox.buttonTintList = ColorStateList.valueOf(Color.BLUE)
+                Toast.makeText(this, "Please accept T&C!", Toast.LENGTH_SHORT).show()
             }
         }
-        binding.checkBox.setOnClickListener{
+        binding.checkBox.setOnClickListener {
             binding.checkBox.buttonTintList = ColorStateList.valueOf(Color.GREEN)
         }
     }

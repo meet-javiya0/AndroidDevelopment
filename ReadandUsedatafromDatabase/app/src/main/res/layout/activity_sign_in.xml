@@ -4,59 +4,80 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/sign_in_page"
+    android:background="@drawable/bg2"
     android:orientation="vertical"
     tools:context=".SignInActivity">
 
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="300dp"
+        android:gravity="center"
+        android:text="@string/enter_your_details_below"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="300dp"
-        android:layout_height="74dp"
-        android:layout_marginTop="257dp"
-        app:hintTextColor="@color/teal_200"
-        app:boxStrokeColor="@color/teal_200"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/fieldbackground"
+        android:textColorHint="@color/black"
+        app:boxStrokeColor="@color/black"
+        app:hintTextColor="@color/black"
         app:startIconDrawable="@drawable/baseline_person_24"
-        android:layout_gravity="center">
+        app:startIconTint="@color/black">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/UserName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@drawable/fieldbackground"
             android:hint="@string/user_name"
-            android:textColorHint="@color/teal_200"
-            android:textStyle="normal"
-            android:id="@+id/username"
-            android:background="@drawable/fieldbackground"/>
+            android:inputType="textNoSuggestions"
+            android:textColor="@color/black"
+            android:textStyle="normal" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="300dp"
-        android:layout_height="74dp"
-        android:layout_marginTop="37dp"
-        app:hintTextColor="@color/teal_200"
-        app:boxStrokeColor="@color/teal_200"
-        app:startIconDrawable="@drawable/baseline_password_24"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/fieldbackground"
+        android:textColorHint="@color/black"
+        app:boxStrokeColor="@color/black"
         app:endIconMode="password_toggle"
-        android:layout_gravity="center">
+        app:endIconTint="@color/black"
+        app:hintTextColor="@color/black"
+        app:startIconDrawable="@drawable/baseline_password_24"
+        app:startIconTint="@color/black">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@drawable/fieldbackground"
             android:hint="@string/password"
-            android:textColorHint="@color/teal_200"
-            android:textStyle="normal"
             android:inputType="textPassword"
-            android:id="@+id/password"
-            android:background="@drawable/fieldbackground"/>
+            android:textColor="@color/black"
+            android:textStyle="normal" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
         android:id="@+id/btnLogin"
-        android:layout_width="276dp"
-        android:layout_height="63dp"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="279dp"
+        android:layout_marginTop="25dp"
         android:background="@drawable/btnbackground"
-        android:text="@string/login" />
+        android:text="@string/login"
+        android:textColor="@color/white" />
 
 </LinearLayout>
