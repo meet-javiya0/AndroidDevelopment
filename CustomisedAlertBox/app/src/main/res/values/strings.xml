@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Customised Alert Box</string>
+    <string name="check_mark">Check mark</string>
+    <string name="congratulations_message">Congratulations on completing the assignment!</string>
+    <string name="question_message">How is your android journey going?</string>
+    <string name="so_good">So good</string>
+    <string name="send_feedback">Send feedback</string>
+    <string name="title_message">This is customised alert box app</string>
+    <string name="click_here">Click here!</string>
+</resources>
