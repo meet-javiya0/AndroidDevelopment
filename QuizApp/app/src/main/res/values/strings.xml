@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Quiz App</string>
+    <string name="title">Attempt all the questions listed below</string>
+    <string name="question_1">Question 1</string>
+    <string name="question_2">Question 2</string>
+    <string name="question_3">Question 3</string>
+    <string name="question_4">Question 4</string>
+    <string name="question_5">Question 5</string>
+    <string name="exit">Exit</string>
 </resources>
