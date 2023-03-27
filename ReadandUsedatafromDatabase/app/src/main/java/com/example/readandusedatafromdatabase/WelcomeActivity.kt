@@ -4,7 +4,6 @@ import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
-import java.security.Key
 
 class WelcomeActivity : AppCompatActivity() {
     @SuppressLint("SetTextI18n")

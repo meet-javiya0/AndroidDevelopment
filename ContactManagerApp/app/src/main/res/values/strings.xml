@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Contact Manager App</string>
+    <string name="phone_logo">Phone logo</string>
+    <string name="name">Your Name</string>
+    <string name="email">Email Address</string>
+    <string name="password">Password</string>
+    <string name="user_name">User Name</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="welcome">Welcome</string>
+    <string name="info">This is your data from our Database!</string>
+    <string name="emailId">Email</string>
+    <string name="username">Username</string>
+    <string name="login_message">If you\'re already registered then please click on login button</string>
+    <string name="enter_your_details_below">Enter your details below!</string>
+    <string name="save_details">Save details</string>
+    <string name="contact_manager_app">Contact Manager App</string>
+    <string name="enter_person_name_here">Enter Contact name here</string>
+    <string name="enter_contact_email_here">Enter Contact Email here</string>
+    <string name="enter_contact_number_here">Enter contact number here</string>
+    <string name="notice">Click the below button to find saved contact</string>
+    <string name="find">Find</string>
+    <string name="details_page_title">Enter the details below to search</string>
+    <string name="contact_details_page_title">This is your contact details from our database!</string>
+    <string name="number">Number</string>
+</resources>
