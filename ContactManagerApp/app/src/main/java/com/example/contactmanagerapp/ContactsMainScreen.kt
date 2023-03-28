@@ -21,6 +21,11 @@ class ContactsMainScreen : AppCompatActivity() {
         val btnSave = findViewById<Button>(R.id.btnSave)
         val btnFind = findViewById<Button>(R.id.btnFind)
 
+        btnFind.setOnClickListener {
+            val intent = Intent(this, ContactSearchPage::class.java)
+            startActivity(intent)
+        }
+
         btnSave.setOnClickListener {
             val contactName = etCName.text.toString()
             val email = etCEmail.text.toString()
@@ -35,11 +40,6 @@ class ContactsMainScreen : AppCompatActivity() {
                 etCNumber.setText("")
             }.addOnFailureListener {
                 Toast.makeText(this, "Failed to save contact", Toast.LENGTH_SHORT).show()
-            }
-
-            btnFind.setOnClickListener {
-                val intent = Intent(this, ContactSearchPage::class.java)
-                startActivity(intent)
             }
         }
     }

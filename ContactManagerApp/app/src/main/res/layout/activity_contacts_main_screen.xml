@@ -61,7 +61,7 @@
             android:layout_height="wrap_content"
             android:background="@drawable/fieldbackground"
             android:hint="@string/enter_contact_email_here"
-            android:inputType="textPersonName"
+            android:inputType="textEmailAddress"
             android:textColor="@color/black"
             android:textStyle="normal" />
 
@@ -85,7 +85,7 @@
             android:layout_height="wrap_content"
             android:background="@drawable/fieldbackground"
             android:hint="@string/enter_contact_number_here"
-            android:inputType="textPersonName"
+            android:inputType="phone"
             android:textColor="@color/black"
             android:textStyle="normal" />
 
