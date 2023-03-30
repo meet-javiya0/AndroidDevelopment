@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Photo Frame App</string>
+    <string name="page_title">Dynamic and stylish photo frame</string>
+    <string name="gandhiji_image">GandhiJi Image</string>
+    <string name="previous_button">Previous button</string>
+    <string name="next_button">Next button</string>
+    <string name="mahatma_gandhi">Mahatma Gandhi</string>
+</resources>
