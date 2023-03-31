@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">List View</string>
+    <string name="title_main_page">Tasks to be done:</string>
+</resources>

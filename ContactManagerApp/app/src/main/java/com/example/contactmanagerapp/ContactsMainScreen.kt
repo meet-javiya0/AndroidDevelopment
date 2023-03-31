@@ -1,5 +1,7 @@
 package com.example.contactmanagerapp
 
+import android.annotation.SuppressLint
+import android.app.Dialog
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -11,6 +13,8 @@ import com.google.firebase.database.FirebaseDatabase
 
 class ContactsMainScreen : AppCompatActivity() {
     private lateinit var database: DatabaseReference
+    private lateinit var dialog: Dialog
+    @SuppressLint("ResourceType", "UseCompatLoadingForDrawables")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_contacts_main_screen)
@@ -20,10 +24,18 @@ class ContactsMainScreen : AppCompatActivity() {
         val etCNumber = findViewById<TextInputEditText>(R.id.etContactNumber)
         val btnSave = findViewById<Button>(R.id.btnSave)
         val btnFind = findViewById<Button>(R.id.btnFind)
+        dialog = Dialog(this)
+        dialog.setContentView(R.layout.okay_alert_box)
+        dialog.window?.setBackgroundDrawable(getDrawable(R.drawable.bg_okay_alert_box))
+        val btnOkay = dialog.findViewById<Button>(R.id.btnOkay)
 
         btnFind.setOnClickListener {
             val intent = Intent(this, ContactSearchPage::class.java)
             startActivity(intent)
+        }
+
+        btnOkay.setOnClickListener {
+            dialog.dismiss()
         }
 
         btnSave.setOnClickListener {
@@ -34,7 +46,7 @@ class ContactsMainScreen : AppCompatActivity() {
             val contacts = Contacts(contactName, email, number)
             database = FirebaseDatabase.getInstance().getReference("Contacts")
             database.child(contactName).setValue(contacts).addOnSuccessListener {
-                Toast.makeText(this, "Contact saved  successfully", Toast.LENGTH_SHORT).show()
+                dialog.show()
                 etCName.setText("")
                 etCEmail.setText("")
                 etCNumber.setText("")

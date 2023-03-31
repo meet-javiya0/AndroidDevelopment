@@ -23,4 +23,7 @@
     <string name="details_page_title">Enter the details below to search</string>
     <string name="contact_details_page_title">This is your contact details from our database!</string>
     <string name="number">Number</string>
+    <string name="check_mark">Check mark</string>
+    <string name="contact_saved_successfully">Contact saved successfully!</string>
+    <string name="okay">Okay</string>
 </resources>
