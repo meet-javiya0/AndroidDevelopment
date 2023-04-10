@@ -3,4 +3,6 @@
     <string name="person_name">Meet Javiya</string>
     <string name="message">Hey, Where are you?</string>
     <string name="time">12:45</string>
+    <string name="name">Name</string>
+    <string name="number">Number</string>
 </resources>
