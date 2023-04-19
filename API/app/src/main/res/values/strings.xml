@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">API</string>
     <string name="product_name">Product name</string>
+    <string name="api">API, JSON and Adapter tutorial</string>
 </resources>
