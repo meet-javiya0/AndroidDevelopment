@@ -5,8 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="10dp"
-    app:cardCornerRadius="20dp"
     android:backgroundTint="@color/white"
+    app:cardCornerRadius="20dp"
     app:cardElevation="5dp">
 
     <LinearLayout
@@ -25,18 +25,33 @@
 
         </com.google.android.material.imageview.ShapeableImageView>
 
-        <TextView
-            android:id="@+id/productTitle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="18dp"
-            android:layout_marginEnd="10dp"
-            android:text="@string/product_name"
-            android:textColor="@color/black"
-            android:textSize="26sp"
-            android:textStyle="bold">
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
-        </TextView>
+            <TextView
+                android:id="@+id/productTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:layout_marginEnd="10dp"
+                android:text="@string/product_name"
+                android:textColor="@color/black"
+                android:textSize="26sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <RatingBar
+                android:id="@+id/simpleRatingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="10dp"
+                android:contentDescription="@string/rating_bar"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
 
     </LinearLayout>
 
