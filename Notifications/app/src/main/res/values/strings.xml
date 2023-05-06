@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Notifications</string>
+    <string name="notification">Notification</string>
+    <string name="notify">Notify</string>
+</resources>
