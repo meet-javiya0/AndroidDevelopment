@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Bottom Navigation View</string>
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="profile">Profile</string>
+    <string name="Home_page_message">This is home Fragment</string>
+    <string name="Search_page_message">This is search Fragment</string>
+    <string name="Profile_page_message">This is profile Fragment</string>
+</resources>
