@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Fragments</string>
+    <string name="understanding_fragment_concepts">Understanding Fragment concepts</string>
+    <string name="clock">Clock</string>
+    <string name="exam">Exam</string>
+    <string name="validate">Validate</string>
+    <string name="exam_time_table">Exam time table</string>
+    <string name="register">Register</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+</resources>
