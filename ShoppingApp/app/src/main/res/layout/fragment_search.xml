@@ -5,9 +5,16 @@
     android:layout_height="match_parent"
     tools:context=".Search">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+    <!-- Search bar -->
+    <EditText
+        android:id="@+id/search_bar"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:autofillHints="Items"
+        android:hint="@string/search"
+        android:inputType="text"
+        android:padding="8dp"
+        android:textSize="18sp" />
 
 </FrameLayout>

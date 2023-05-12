@@ -7,4 +7,23 @@
     <string name="home">Home</string>
     <string name="cart">Cart</string>
     <string name="my_account">My Account</string>
+    <string name="banner">Banner</string>
+    <string name="product_categories">Product Categories</string>
+    <string name="view_all">View all</string>
+    <string name="man">Man</string>
+    <string name="woman">Woman</string>
+    <string name="kids">Kids</string>
+    <string name="beauty">Beauty</string>
+    <string name="footwear">Footwear</string>
+    <string name="bags">Bags</string>
+    <string name="watches">Watches</string>
+    <string name="sunglasses">Sunglasses</string>
+    <string name="find_your_items_here">Find your items here</string>
+    <string name="clothing_and_accessories">Clothing and accessories</string>
+    <string name="beauty_and_personal_care">Beauty and Personal Care</string>
+    <string name="electronics">Electronics</string>
+    <string name="home_and_furniture">Home and Furniture</string>
+    <string name="sports_and_fitness">Sports and Fitness</string>
+    <string name="books_movies_and_music">Books, Movies, and Music</string>
+    <string name="toys_and_games">Toys and Games</string>
 </resources>
