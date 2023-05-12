@@ -26,4 +26,14 @@
     <string name="sports_and_fitness">Sports and Fitness</string>
     <string name="books_movies_and_music">Books, Movies, and Music</string>
     <string name="toys_and_games">Toys and Games</string>
+    <string name="quantity_2">Quantity: 2</string>
+    <string name="price_50">Price: $50</string>
+    <string name="quantity_1">Quantity: 1</string>
+    <string name="price_30">Price: $30</string>
+    <string name="total_130">Total: $130</string>
+    <string name="checkout">Checkout</string>
+    <string name="john_doe">John Doe</string>
+    <string name="johndoe_example_com">johndoe@example.com</string>
+    <string name="order_history">Order History</string>
+    <string name="no_orders_yet">No orders yet</string>
 </resources>
