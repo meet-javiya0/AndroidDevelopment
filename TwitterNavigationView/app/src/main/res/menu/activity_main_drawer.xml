@@ -4,17 +4,51 @@
     tools:showIn="navigation_view">
 
     <group android:checkableBehavior="single">
+
         <item
-            android:id="@+id/nav_home"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="@string/menu_home" />
+            android:id="@+id/profile"
+            android:icon="@drawable/baseline_person_outline_24"
+            android:title="@string/profile" />
+
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menu_gallery" />
+            android:id="@+id/twitterBlue"
+            android:icon="@drawable/baseline_blur_circular_24"
+            android:title="@string/twitter_blue" />
+
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
+            android:id="@+id/topics"
+            android:icon="@drawable/baseline_topic_24"
+            android:title="@string/topics" />
+
+        <item
+            android:id="@+id/bookmarks"
+            android:icon="@drawable/baseline_bookmark_border_24"
+            android:title="@string/bookmarks" />
+
+        <item
+            android:id="@+id/lists"
+            android:icon="@drawable/baseline_list_alt_24"
+            android:title="@string/lists" />
+
+        <item
+            android:id="@+id/twitterCircle"
+            android:icon="@drawable/baseline_person_pin_circle_24"
+            android:title="@string/twitter_circle" />
+
     </group>
+
+    <group android:checkableBehavior="single">
+
+    <item
+        android:id="@+id/professionalTools"
+        android:icon="@drawable/baseline_card_travel_24"
+        android:title="@string/professional_tools"/>
+
+    <item
+        android:id="@+id/SettingsAndSupport"
+        android:icon="@drawable/baseline_settings_24"
+        android:title="@string/settings_support"/>
+
+    </group>
+
 </menu>

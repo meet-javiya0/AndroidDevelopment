@@ -10,4 +10,16 @@
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
+    <string name="email">Email</string>
+    <string name="meet">Meet</string>
+    <string name="username">\@MeetJaviya0</string>
+    <string name="followers"> 57 Following \t 26 Followers</string>
+    <string name="profile">Profile</string>
+    <string name="twitter_blue">Twitter Blue</string>
+    <string name="topics">Topics</string>
+    <string name="bookmarks">Bookmarks</string>
+    <string name="lists">Lists</string>
+    <string name="twitter_circle">Twitter Circle</string>
+    <string name="professional_tools">Professional Tools</string>
+    <string name="settings_support"><![CDATA[Settings & support]]></string>
 </resources>
