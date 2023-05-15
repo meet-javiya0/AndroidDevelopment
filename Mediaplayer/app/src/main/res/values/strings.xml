@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Media player</string>
+    <string name="media_player_audio_in_android">Media player, audio in Android</string>
+    <string name="musician_image">Musician image</string>
+    <string name="pause_button">Pause button</string>
+    <string name="play_button">Play button</string>
+    <string name="stop_button">Stop button</string>
+</resources>
